@@ -1,0 +1,49 @@
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+.area {
+    fill: #07A;
+    stroke: #000;
+}
+
+/*  USING min-width - it will do what is inside @media
+    while width is greater than what min-width is set to
+    in parenthesis
+*/
+#stockChartDiv {
+    width: 100%;
+    height: 200px;
+}
+@media screen and (min-width: 768px) {
+    #stockChartDiv {
+        width: 540px;
+        height: 230px;
+    }
+}
+@media screen and (min-width: 992px) {
+    #stockChartDiv {
+        width: 780px;
+        height: 350px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #stockChartDiv {
+        width: 980px;
+        height:  500px;
+    }
+}
+/* FRONT PAGE MARKET CHART DIV that will hold a stock graph*/
+div.frontChartDiv {
+    width: 100%;/* used to be auto;*/
+    height: 200px;
+    margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+    div.frontChartDiv {
+        width: 400px;
+        height: 200px;
+    }
+}

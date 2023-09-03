@@ -1,0 +1,347 @@
+html {
+    font-size: 100%;
+}
+body {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+h4 {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 1.7em;
+    color: #07A;
+}
+h5 {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 1.6em;
+    color: #000;
+}
+
+select, option, input[type="text"] {
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1.2em;
+}
+#errorPanel {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 1.0em;
+    color: #500;
+    text-align: left;
+}
+.pgraphgaptop {
+    margin-top: 25px;
+}
+
+.pgraphgapbottom {
+    margin-bottom: 80px;
+}
+.newsWrapperDiv {
+    height: 500px;
+}
+div.newsWrapperDiv > table {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.newsUrl {
+    font-size: 18px;
+}
+.newsByWhom {
+    font-size: 12px;
+    color: #AAA;
+}
+.newsAbstract {
+    font-size: 16px;
+}
+
+.stocksymbol {
+    font-family: monospace;
+    color: firebrick;
+    font-weight: bold;
+}
+.glyphParagraph {
+    font-size: 50px;
+    color: #0AF;
+}
+.advParagraph {
+    font-size: 18px;
+}
+.homeInfoBox {
+    margin-top: 40px;
+    height: 210px;
+}
+
+.help-block {
+    color: red;
+    background-color: bisque;
+    padding: 10px 10px 10px 10px;
+}
+
+.marketheadings {
+    margin-bottom: 10px;
+    background-color: #FFF;
+    color: #000;
+    border-bottom: 3px double #07A;
+    padding: 7px;
+}
+@media(max-width: 549px) {
+    .newsWrapperDiv {
+        height: 680px;
+    }
+}
+@media(min-width: 992px) {
+    .newsWrapperDiv {
+        height: 600px;
+    }
+}
+
+@media(max-width: 767px) {
+    .marketheadings {
+        margin-top: 10px;
+    }
+    .markethdr {
+        margin-top: 25px;
+    }
+}
+
+/****************** Biznews forward back buttons ********************/
+button.smallsizebutton {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FFF;
+    color: #07A;
+    padding: 5px 12px 2px 12px;
+    border: 1px solid #888;
+    margin: 5px 8px 20px 8px;
+}
+
+.blquote {
+    background-color: lemonchiffon;
+    border-radius: 15px;
+    border-left-color: #07A;
+}
+
+/* *********************************************************************************************** */
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #DDD; 
+    color: #000;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: none;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 20px;
+    line-height: 22px;
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+    text-decoration: none;
+}
+.navbar-brand > img {
+    display: block;
+}
+/* TOP MENU BAR BACKGROUND*/
+.navbar-default {
+    background-color: #07A;
+}
+
+/******* Site Brand Logo **************/
+.navbar-default .navbar-brand {
+    color: #FFF;
+    font-family: 'Fauna One', serif;
+    font-size: 2em;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFF;
+}
+.navbar-default .navbar-text {
+    color: #FFF;
+}
+/******************* main top menu **********************/
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+    font-family: 'Fauna One', serif;
+    font-size: 1.7em;
+    text-align: center;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #FFF;
+    background-color: #0AF;
+    transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #0AF;
+}
+
+/******************************************************/
+
+.navbar-toggle .icon-bar {
+    height: 4px;
+    width: 30px;
+}
+/************ THREE LINE RESPONSIVE MENU ************************/
+.navbar-default .navbar-toggle {
+    background-color: transparent;
+    border: none;
+}
+.navbar-default .navbar-toggle:hover{
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+/* Icon Bar Color */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-nav {
+  margin: 7.5px -15px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 20px;
+}
+.navbar-nav > li > a > i {
+    float: left;
+}
+
+@media (min-width: 768px) {
+
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: -15px;
+    }
+
+    .navbar-nav {
+        float: left;
+        margin: 0;
+    }
+
+    .navbar-nav > li {
+        float: left;
+    }
+
+    .navbar-nav > li > a > i {
+        display: none;
+    }
+}
+.carousel-control {
+/*    position: absolute;*/
+    top: 45%;
+    bottom: 25%;
+    text-shadow: 0 7px 4px rgba(0, 0, 0, .9);
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.carousel-control:hover,
+.carousel-control:focus {
+    color: #FFF;
+    text-decoration: none;
+    filter: none;
+    outline: 0;
+    opacity: 1;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    top: 0;
+    left: 0;
+    line-height: 1;
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-indicators {
+    bottom: 1px;
+}
+.carousel-indicators li {
+    width: 50px;
+}
+.carousel-indicators .active {
+    width: 50px;
+}
+.carousel-caption {
+    right: 15%;
+    top: 20px;
+    bottom: auto;
+    left: 15%;
+    font-size: 18px;
+    text-shadow: 0 3px 2px rgba(0, 0, 0, 1);
+}
+
+
+/* ************************************************************ */
+#xyAxis {
+    height: 200px;
+    width: 100%;
+    border-bottom: #CCC solid 1px;
+    background-color: inherit;
+}
+
+@keyframes flickerin {
+    0%{opacity:0.4;} 35%{opacity:1;} 75%{opacity:0;} 100%{opacity:0.4;}
+}
+@-webkit-keyframes flickerin {
+    0%{opacity:0.4;} 35%{opacity:1;} 75%{opacity:0;} 100%{opacity:0.4;}
+}
+@-moz-keyframes flickerin {
+    0%{opacity:0.4;} 35%{opacity:1;} 75%{opacity:0;} 100%{opacity:0.4;}
+}
+@-ms-keyframes flickerin {
+    0%{opacity:0.4;} 35%{opacity:1;} 75%{opacity:0;} 100%{opacity:0.4;}
+}
+@keyframes bulge {
+    0%{height:50%;} 35%{height:20%;} 75%{height:90%;} 100%{height:50%;}
+}
+@-webkit-keyframes bulge {
+    0%{height:50%;} 35%{height:20%;} 75%{height:90%;} 100%{height:50%;}
+}
+@-moz-keyframes bulge {
+    0%{height:50%;} 35%{height:20%;} 75%{height:90%;} 100%{height:50%;}
+}
+@-ms-keyframes bulge {
+    0%{height:50%;} 35%{height:20%;} 75%{height:90%;} 100%{height:50%;}
+}
+.pillar {
+    display: inline-block;
+    background-color: inherit;
+    width: 3%;
+    height: 100%;
+}
+.motionbar {
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+/* ******************************************************************************* */
