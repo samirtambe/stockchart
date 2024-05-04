@@ -48,7 +48,7 @@ const prepareUrl = (uiParams) => {
     let howfarback = uiParams.startDate;
     let now = uiParams.endDate;
     let suffix = '?adjusted=true&sort=asc&limit=262&';
-    let apikey = 'apiKey=0bwI0wI9CWC5PobE2Ufm4PWMROqS1YkP';
+    let apikey = 'apiKey=????';
     let url = prefix + stock + extra + howfarback + '/' + now + suffix + apikey;
     return url;
 };
